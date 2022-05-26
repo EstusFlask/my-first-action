@@ -1,0 +1,28 @@
+{
+  "name": "my-first-action",
+  "version": "1.0.0",
+  "description": "Just my first action",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstusFlask/my-first-action.git"
+  },
+  "keywords": [
+    "my",
+    "first",
+    "action"
+  ],
+  "author": "arvegadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstusFlask/my-first-action/issues"
+  },
+  "homepage": "https://github.com/EstusFlask/my-first-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "@actions/github": "^5.0.3"
+  }
+}

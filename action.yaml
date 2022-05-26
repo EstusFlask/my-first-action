@@ -1,0 +1,13 @@
+name: 'My first action'
+description: 'This action greets'
+inputs:
+  name: 
+    description: 'Name'
+    required: true
+    default: 'Unknown person'
+outputs:
+  time: 
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'

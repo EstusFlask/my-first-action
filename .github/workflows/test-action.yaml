@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  my_first_action_job:
+    runs-on: ubuntu-latest
+    name: A job from my first action
+    steps:
+      - name: My first action
+        id: firstaction
+        uses: EstusFlask/my-first-action@v1
+        with:
+          name: "Solaire of Astora"
+      - name: Get the output time
+        run: echo "It´s ${{ steps.firstaction.outputs.time }}"
