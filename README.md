@@ -25,7 +25,7 @@ https://github.com/EstusFlask/my-first-action/blob/5a170f084c332a7da0bfca297fa1b
   Then I recover it in the javascript code
 https://github.com/EstusFlask/my-first-action/blob/5a170f084c332a7da0bfca297fa1b76099c27087/index.js#L1-L5
 
-#### 5. After that, I set a output that you can recover in the actions steps and use it.
+#### 5. After that, I set an output that you can recover in the actions steps and use it.
 https://github.com/EstusFlask/my-first-action/blob/5a170f084c332a7da0bfca297fa1b76099c27087/index.js#L11
   
   In this case I use it to print the datetime.
